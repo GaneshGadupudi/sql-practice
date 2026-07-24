@@ -1,0 +1,1 @@
+select country,avg(score) as avg_score from customers where score!=0 group by country having avg(score)>430
